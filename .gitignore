@@ -1,0 +1,8 @@
+xrun.log
+xrun.history
+xcelium.d/
+INCA_libs/
+sim/
+*.shm
+*.trn
+*.dsn
