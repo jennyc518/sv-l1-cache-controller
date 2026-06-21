@@ -52,7 +52,7 @@ A 4-way set-associative L1 data cache controller in SystemVerilog with a full AX
 
 ---
 
-## Bugs Found During Verification
+## Race Conditions Found During Verification: Root Cause Analysis and Fixes
  
 Two race conditions were discovered and fixed during simulation. Both caused silent data corruption — the simulation completed with no crashes but reads returned wrong values.
  
